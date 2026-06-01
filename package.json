@@ -1,0 +1,28 @@
+{
+  "name": "fqin_hittoken",
+  "version": "1.0.0",
+  "description": "an api returns a random sentences",
+  "repository": "https://github.com/Fqin9/hittoken",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "vercel:dev": "vercel dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "fastify": "^5.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@vercel/node": "^5.8.8",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vercel": "^54.6.1"
+  }
+}
